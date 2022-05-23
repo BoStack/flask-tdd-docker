@@ -1,6 +1,5 @@
 import os
 
-from lib2to3.pytree import Base
 
 
 class BaseConfig:

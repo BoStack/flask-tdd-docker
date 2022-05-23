@@ -1,6 +1,8 @@
 FROM python:3.10.4-slim-buster
 
+RUN mkdir -p /usr/src/app
 WORKDIR /user/src/app
+
 
 ENV PYTHONDONTWRITEBYTECODE 1
 
@@ -18,6 +20,6 @@ COPY . .
 COPY ./entrypoint.sh .
 RUN chmod +x /usr/src/app/entrypoint.sh
 
-CMD python manage.py run -h 0.0.0.0
+#CMD python manage.py run -h 0.0.0.0
 
 

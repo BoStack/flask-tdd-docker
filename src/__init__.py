@@ -1,8 +1,5 @@
-import email
-from email.policy import default
 import os
 import sys
-from unicodedata import name
 from flask import Flask, jsonify
 from flask_restx import Resource, Api
 from flask_sqlalchemy import SQLAlchemy

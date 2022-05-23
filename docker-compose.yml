@@ -20,6 +20,7 @@ services:
 
     depends_on:
       - api-db
+    #command: tail -F anything
   
   api-db:
     build: 
