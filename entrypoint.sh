@@ -1,3 +1,4 @@
+#!/bin/sh
 echo "Wainting for response..."
 
 while ! nc -z api-db 5432; do

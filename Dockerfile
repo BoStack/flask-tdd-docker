@@ -1,7 +1,7 @@
 FROM python:3.10.4-slim-buster
 
 RUN mkdir -p /usr/src/app
-WORKDIR /user/src/app
+WORKDIR /usr/src/app
 
 
 ENV PYTHONDONTWRITEBYTECODE 1
